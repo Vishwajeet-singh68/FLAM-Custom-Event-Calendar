@@ -1,12 +1,39 @@
-# React + Vite
+# 📅 Event Calendar Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Calendar UI Preview](calendar-screenshot.png) <!-- Replace with your actual screenshot -->
 
-Currently, two official plugins are available:
+A fully-featured event calendar built with React that supports event management, recurring events, drag-and-drop rescheduling, and local storage persistence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+### 📅 Core Calendar
+- Monthly grid view with intuitive navigation
+- Today button for quick date jumping
+- Responsive design works on all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎯 Event Management
+- **Create events** with title, date/time, description
+- **Color coding** (6 color options)
+- **Recurring events**:
+  - Daily, weekly, monthly patterns
+  - Custom recurrence intervals
+- **Drag-and-drop** to reschedule events
+- **Edit/Delete** existing events
+
+### 🔍 Search & Filter
+- Full-text search across event titles/descriptions
+- Filter by event color
+- Conflict detection (warns about overlapping events)
+
+### ⚙️ Technical Features
+- Local storage persistence
+- Comprehensive date utilities
+- Keyboard accessible
+- Clean component architecture
+
+## 🛠️ Installation
+
+1. **Clone the repository**:
+```bash
+git clone https://github.com/yourusername/react-event-calendar.git
+cd react-event-calendar
