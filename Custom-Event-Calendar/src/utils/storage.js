@@ -1,8 +1,16 @@
-export function getFromStorage(key) {
-  const data = localStorage.getItem(key);
-  return data ? JSON.parse(data) : null;
-}
+export const get = (key) => {
+  try {
+    const item = localStorage.getItem(key);
+    return item ? JSON.parse(item) : null;
+  } catch {
+    return null;
+  }
+};
 
-export function saveToStorage(key, value) {
-  sessionStorage.setItem(key, JSON.stringify(value));
-}
+export const set = (key, value) => {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch (error) {
+    console.error('Storage error:', error);
+  }
+};
