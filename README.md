@@ -35,5 +35,7 @@ A fully-featured event calendar built with React that supports event management,
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/react-event-calendar.git
-cd react-event-calendar
+git clone https://github.com/Vishwajeet-singh68/FLAM-Custom-Event-Calendar.git
+cd FLAM-Custom-Event-Calendar
+npm install
+npm run dev
