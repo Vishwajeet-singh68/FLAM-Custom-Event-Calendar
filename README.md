@@ -1,6 +1,6 @@
 # 📅 Event Calendar Application
 
-![Calendar UI Preview](./Screenshot%202025-07-21%20101837.png) <!-- Replace with your actual screenshot -->
+![Calendar UI Preview](./Screenshot%2025-07-21%102249.png) <!-- Replace with your actual screenshot -->
 
 A fully-featured event calendar built with React that supports event management, recurring events, drag-and-drop rescheduling, and local storage persistence.
 
